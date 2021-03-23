@@ -11,20 +11,4 @@ class Plateau():
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 c=Case()
