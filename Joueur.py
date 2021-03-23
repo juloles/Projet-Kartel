@@ -1,3 +1,7 @@
 ### Joueur ###
+from Inspecteur import*
+from Dé import*
 
-form 
+class Joueur :
+
+    def __init__(self,):
