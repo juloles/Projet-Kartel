@@ -1,5 +1,5 @@
 ### Prison ###
-from classe_Case import*
+from Case import*
 
 class Prison :
 
