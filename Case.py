@@ -1,6 +1,6 @@
 ### Cases ###
-from Jeton imports *
+from Jeton import *
 
 class Case:
     def __init__(self):
-        None
+        case=[" "]
