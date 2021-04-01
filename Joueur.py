@@ -23,4 +23,3 @@ class Joueur :
 
             int(input("veuillez entrer votre nouveau choix"))
         return nb_cases
-        
