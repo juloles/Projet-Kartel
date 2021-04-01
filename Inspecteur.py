@@ -1,1 +1,2 @@
 ### Inspecteur ###
+from Case import *

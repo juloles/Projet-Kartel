@@ -1,1 +1,2 @@
 ### Jeu ###
+from Compte import *
