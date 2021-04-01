@@ -1,2 +1,5 @@
 ### Compte ###
-from Joueur import * 
+from Joueur import *
+
+
+## faire le compte des points à la fin de partie 

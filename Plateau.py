@@ -17,7 +17,7 @@ class Plateau():
 
             self.plateau[i].affichage()
 
-
+## remplir le plateau de manière aléatoire
 
 
 
