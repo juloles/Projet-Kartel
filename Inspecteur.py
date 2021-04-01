@@ -1,5 +1,6 @@
 ### Inspecteur ###
 from Case import *
+from Joueur import *
 
 class Inspecteur :
 
@@ -7,4 +8,3 @@ class Inspecteur :
         None
 
     def deplacement (self) :
-     
