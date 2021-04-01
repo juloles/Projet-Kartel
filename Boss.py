@@ -1,6 +1,6 @@
 ### Boss ###
 
-class Gangster:
+class Boss:
     def __init__(self, couleur):
         self.couleur=couleur
-        
+        self.etat=None
