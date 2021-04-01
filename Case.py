@@ -1,5 +1,5 @@
 ### Cases ###
-from import Jeton *
+from Jeton import *
 
 class Case:
     def __init__(self):
