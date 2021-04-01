@@ -1,6 +1,8 @@
 ### Joueur ###
 from Inspecteur import*
 from De import*
+from Prison import*
+
 
 class Joueur :
 
