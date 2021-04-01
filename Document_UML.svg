@@ -237,8 +237,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="712.85721"
-     inkscape:cy="560"
+     inkscape:cx="392.85718"
+     inkscape:cy="674.28571"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -256,7 +256,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -730,5 +730,108 @@
        d="M 438.45239,213.84524 H 538.99405 V 301.5357"
        id="path6376"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-230.56548"
+       y="-81.732147"
+       id="text3817"><tspan
+         sodipodi:role="line"
+         id="tspan3815"
+         x="-230.56548"
+         y="-81.732147"
+         style="stroke-width:0.26458332">Nb de joueurs </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="188.9881"
+       y="-87.779762"
+       id="text3821"><tspan
+         sodipodi:role="line"
+         id="tspan3819"
+         x="188.9881"
+         y="-87.779762"
+         style="stroke-width:0.26458332">Case départ</tspan><tspan
+         sodipodi:role="line"
+         x="188.9881"
+         y="-63.967262"
+         style="stroke-width:0.26458332"
+         id="tspan3823">Nb de Cases</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="273.65475"
+       y="67.190475"
+       id="text3827"><tspan
+         sodipodi:role="line"
+         id="tspan3825"
+         x="273.65475"
+         y="67.190475"
+         style="stroke-width:0.26458332">Position des jetons</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="276.67859"
+       y="207.04167"
+       id="text3831"><tspan
+         sodipodi:role="line"
+         id="tspan3829"
+         x="276.67859"
+         y="207.04167"
+         style="stroke-width:0.26458332">Couleur</tspan><tspan
+         sodipodi:role="line"
+         x="276.67859"
+         y="230.85417"
+         style="stroke-width:0.26458332"
+         id="tspan3833">Etat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="535.21423"
+       y="129.93452"
+       id="text3837"><tspan
+         sodipodi:role="line"
+         id="tspan3835"
+         x="535.21423"
+         y="129.93452"
+         style="stroke-width:0.26458332">Nb de places libres </tspan><tspan
+         sodipodi:role="line"
+         x="535.21423"
+         y="153.74702"
+         style="stroke-width:0.26458332"
+         id="tspan3839">Nb de places = 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-230.56548"
+       y="230.4762"
+       id="text3843"><tspan
+         sodipodi:role="line"
+         id="tspan3841"
+         x="-230.56548"
+         y="230.4762"
+         style="stroke-width:0.26458332">Randint (2,4)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-212.42261"
+       y="70.214287"
+       id="text3847"><tspan
+         sodipodi:role="line"
+         id="tspan3845"
+         x="-212.42261"
+         y="70.214287"
+         style="stroke-width:0.26458332">Points</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="37.797619"
+       y="69.458336"
+       id="text3851"><tspan
+         sodipodi:role="line"
+         id="tspan3849"
+         x="37.797619"
+         y="69.458336"
+         style="stroke-width:0.26458332">Déplacement</tspan></text>
   </g>
 </svg>
