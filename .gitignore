@@ -112,3 +112,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+~$Journal_De_Dev.xlsx
+*.xlsx
