@@ -23,5 +23,4 @@ class Plateau():
 
 
 P=Plateau(43)
-
 P.afficher()
