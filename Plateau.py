@@ -33,7 +33,7 @@ class Plateau():
 
         tableau_personnages=["Argent", "1Gangster", "2Gangster", "2Gangster", "3Gangster", "Boss"]
 
-        tableau_couleur=["R", "Ve", "J", "B", "V", "M", "Ro"]
+        tableau_couleur=["Rouge", "Vert", "Jaune", "Bleu", "Vert", "Marron", "Rose"]
 
 
         for i in range (len(tableau_personnages)):
