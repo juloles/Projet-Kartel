@@ -48,10 +48,7 @@ class Plateau():
 
     def random_plateau(self):
 
-        for i in range (0,100) :
-            r1 = randint (0,42)
-            r2 = randint (0,42)
-            self.plateau[r1] = self.plateau[r2]
+        random.shuffle(self.plateau)
 
         print("\n")
         print("\nPlateau rempli random :")
