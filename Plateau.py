@@ -43,15 +43,18 @@ class Plateau():
             for j in range (len(tableau_couleur)):
 
                     self.plateau[i*7+j].remplir_case(tableau_personnages [i],tableau_couleur[j])
+        print ("\n")
         print("\nPlateau rempli :")
         self.afficher()
 
     def random_plateau(self):
-
-        for i in range (0,100) :
+        c = Case()
+        for i in range (0,100):
             r1 = randint (0,42)
             r2 = randint (0,42)
+            c = self.plateau[r1]
             self.plateau[r1] = self.plateau[r2]
+            self.plateau[r2] = c
 
         print("\n")
         print("\nPlateau rempli random :")
