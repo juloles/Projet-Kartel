@@ -1,6 +1,7 @@
 ### Plateau ###
 from Case import*
 from Prison import*
+from random import*
 
 class Plateau():
 
@@ -42,13 +43,20 @@ class Plateau():
 
                     self.plateau[i*7+j].remplir_case(tableau_personnages [i],tableau_couleur[j])
         print("\nPlateau rempli")
+
+
+    def random_plateau(self):
+        c = Case()
+        for i in range (0,100) :
+            r1 = randint(0,42)
+            r2 = randint(0,42)
+            c = self.plateau[r1]
+            self.plateau[r1] = self.plateau[r2]
+            self.plateau[r2] = c
         self.afficher()
-
-
-
-
 
 
 P=Plateau(43)
 P.afficher()
 P.remplir_plateau()
+P.random_plateau()
