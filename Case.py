@@ -17,23 +17,20 @@ class Case:
 
         if personnage=="Argent":
 
-            self.case=["€"]
+            self.case=["€ " + couleur]
 
         if personnage=="Boss":
 
-            self.case=["B"]
+            self.case=["B " + couleur]
 
         if personnage=="1Gangster":
 
-            self.case=["1G"]
+            self.case=["1G " + couleur]
 
         if personnage=="2Gangster":
 
-            self.case=["2G"]
+            self.case=["2G " + couleur]
 
         if personnage=="3Gangster":
 
-            self.case=["3G"]
-
-
-
+            self.case=["3G " + couleur]

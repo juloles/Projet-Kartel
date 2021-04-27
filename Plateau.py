@@ -40,10 +40,9 @@ class Plateau():
 
             for j in range (len(tableau_couleur)):
 
-                for r in range(self.nombre_cases):
-                    self.plateau[r]=self.plateau[r].remplir_case(i,j)
-
-        print (self.plateau[r])
+                    self.plateau[i*7+j].remplir_case(tableau_personnages [i],tableau_couleur[j])
+        print("\nPlateau rempli")
+        self.afficher()
 
 
 
