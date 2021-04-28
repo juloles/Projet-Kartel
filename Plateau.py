@@ -35,8 +35,9 @@ class Plateau():
 
 
         for i in range (len(self.plateau)) :
-            if self.plateau[i] == " " :
-                self.plateau[i] = self.plateau[i].remplir_case()
+            personnage = ["Inspecteur"]
+            if self.plateau[i] == [" "] :
+                self.plateau[i].remplir_case(personnage)
 
         self.afficher()
 
