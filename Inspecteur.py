@@ -1,9 +1,12 @@
 ### Inspecteur ###
+from Joueur import *
 
 class Inspecteur :
 
     def __init__ (self) :    ## mettre des attributs
-        self.inspecteur = ["♂"]
+        self.position = 0
 
-    def deplacement (self , nb_cases) :
-        None                                 ## en fonction du choix du joueur
+    def deplacement (self, J) :
+        jeu = J
+        self.position = self.position + jeu.joueur.mouvement()          ## en fonction du choix du joueur
+        print(self.position)

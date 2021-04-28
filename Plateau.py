@@ -14,10 +14,25 @@ class Plateau():
             self.plateau[i] = Case()
 
 
-    def afficher(self):
-
+    def afficher(self, posInspecteur = 0):
+        print(posInspecteur)
+        print(self.plateau[0].affichage())
         print("Plateau :", end=' ')
-        for i in range(self.nombre_cases):
+        if posInspecteur == 0 :
+            print (["I"],end=' ')
+        else :
+            for i in range(posInspecteur - 1):
+                self.plateau[i].affichage()
+
+
+
+            print(["I"], end=' ')
+        '''
+        for i in range (len(self.plateau)) :
+            if self.plateau[i] == ["I"] :
+                self.plateau[i].affichage()
+        '''
+        for i in range (posInspecteur + 1,len(self.plateau)) :
             self.plateau[i].affichage()
 
 
@@ -33,31 +48,25 @@ class Plateau():
             for j in range (len(tableau_couleur)):
                     self.plateau[i*7+j].remplir_case(tableau_personnages [i],tableau_couleur[j])
 
-        for i in range (len(self.plateau)) :
-            if self.plateau[i].case == [' '] :
-                print('test inspecteur')
-                self.plateau[i].remplir_case("Inspecteur")
-
-
-        self.afficher()
 
 
     def random_plateau(self):
-
+        x = Case()
         c = Case()
+
         for i in range (0,10000) :
-            r1 = randint(0,42)
-            r2 = randint(0,42)
+            r1 = randint(0,41)
+            r2 = randint(0,41)
             c = self.plateau[r1]
             self.plateau[r1] = self.plateau[r2]
             self.plateau[r2] = c
 
-        print("\n")
+        self.plateau[42] = x
+        self.plateau[42] = self.plateau[0]
+        self.plateau[0] = x
+
+        for i in range (len(self.plateau)) :
+            if self.plateau[i].case == [' '] :
+                self.plateau[i].remplir_case("Inspecteur")
+
         print("\nPlateau rempli random :")
-        self.afficher()
-
-
-P=Plateau(43)
-
-P.remplir_plateau()
-P.random_plateau()
