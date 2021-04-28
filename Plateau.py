@@ -9,9 +9,9 @@ class Plateau():
     def __init__(self,cases):
 
         self.nombre_cases=cases
-        self.plateau=[' ']*self.nombre_cases
+        self.plateau=[0]*self.nombre_cases
         for i in range (self.nombre_cases):
-            self.plateau[i]=Case()
+            self.plateau[i] = Case()
 
 
     def afficher(self):
@@ -33,11 +33,11 @@ class Plateau():
             for j in range (len(tableau_couleur)):
                     self.plateau[i*7+j].remplir_case(tableau_personnages [i],tableau_couleur[j])
 
-
         for i in range (len(self.plateau)) :
-            personnage = "Inspecteur"
-            if self.plateau[i] == [" "] :
-                self.plateau[i].remplir_case(personnage)
+            if self.plateau[i].case == [' '] :
+                print('test inspecteur')
+                self.plateau[i].remplir_case("Inspecteur")
+
 
         self.afficher()
 

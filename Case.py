@@ -11,7 +11,7 @@ class Case:
     def affichage(self):
         print (self.case, end=' ')
 
-    def remplir_case(self, personnage, couleur):
+    def remplir_case(self, personnage=None, couleur=None):
 
         if personnage=="Argent":
             self.case=["€ " + couleur]
@@ -29,4 +29,4 @@ class Case:
             self.case=["3G " + couleur]
 
         if personnage=="Inspecteur" :
-            self.case=["♂"]
+            self.case= ["I"]
