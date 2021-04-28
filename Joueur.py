@@ -21,7 +21,7 @@ class Joueur :
 
         if nb_cases>self.de.resultats_de():
 
-            print ("veuillez choisir un autre plus petit que le résultat du dé")
+            print ("veuillez choisir un nombre plus petit que le résultat du dé")
 
             int(input("veuillez entrer votre nouveau choix"))
         return nb_cases
