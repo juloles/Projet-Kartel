@@ -32,7 +32,7 @@ class Plateau():
             if self.plateau[i] == ["I"] :
                 self.plateau[i].affichage()
         '''
-        for i in range (posInspecteur + 1,len(self.plateau)) :
+        for i in range (posInspecteur + 1 ,len(self.plateau)) :
             self.plateau[i].affichage()
 
 
