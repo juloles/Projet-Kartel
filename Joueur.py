@@ -15,7 +15,7 @@ class Joueur :
     def mouvement(self):
 
         r=self.de.resultats_de()
-        print ("\n",r)
+        print ("\nVoici le résultat du Dé :", r)
 
         nb_cases=int(input("de combien de cases voulez vous avancer ?"))
 
